@@ -1,0 +1,352 @@
+body {
+  font-family: Montserrat, sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+  line-height: 1;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 768px) {
+  br {
+    display: none;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #3e2044;
+  line-height: 1.0;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #3e2044;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 18px;
+  }
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #434343;
+}
+
+@media (max-width: 768px) {
+  h3 {
+    font-size: 15px;
+  }
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #6e5873;
+  line-height: 1.3;
+}
+
+@media (max-width: 768px) {
+  p {
+    font-size: 15px;
+  }
+}
+
+.text-pink {
+  color: #f54a63;
+  font-weight: 700;
+}
+
+.banner {
+  background-image: url(../../assets/img/banner-bg.png);
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-image, .banner-content {
+  padding: 40px 20px;
+}
+
+.banner-content h1 {
+  padding: 40px 0 10px;
+}
+
+.banner-content hr {
+  height: 5px;
+  border-radius: 5pc;
+}
+
+@media (max-width: 768px) {
+  .banner-image, .banner-content {
+    padding: 40px 20px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-content h1 {
+    padding: 0 0 10px;
+  }
+}
+
+.banner-circle {
+  position: absolute;
+  right: 0;
+  top: 80%;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .banner-circle {
+    display: none;
+  }
+}
+
+.pneumococcal-disease {
+  background-image: url(../../assets/img/pneumococcal-disease-bg.png);
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .pneumococcal-disease {
+    padding-top: 40px;
+  }
+}
+
+.pneumococcal-disease-image {
+  margin: 50px 0;
+  box-shadow: 0px 12px 53.95px 11.05px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.pneumococcal-content {
+  margin: 30px 0;
+}
+
+.play-icon {
+  position: absolute;
+  top: 34%;
+  right: 0;
+  left: 0;
+}
+
+.pneumococcal-wrapper {
+  margin: 30px 0;
+}
+
+.protect {
+  background-image: url(../../assets/img/protect.png);
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  margin: 50px 0 0;
+}
+
+@media (max-width: 768px) {
+  .protect {
+    background-image: none;
+  }
+}
+
+.questions {
+  background-image: url(../../assets/img/questions-bg.png);
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  padding: 50px 0;
+}
+
+@media (max-width: 768px) {
+  .questions {
+    background-position: center;
+  }
+}
+
+.protect p {
+  margin: 25px 0;
+}
+
+.questions-wrapper {
+  padding: 50px 0;
+}
+
+.questions-wrapper span {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.questions-wrapper p {
+  color: #ffffff;
+}
+
+.questions-wrapper a {
+  color: #ffffff;
+}
+
+.questions-content {
+  padding: 20px;
+}
+
+.questions-content:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.questions-content:hover span {
+  color: #ffba00;
+  font-weight: 700;
+}
+
+.questions-content:hover p {
+  color: #6f5973;
+}
+
+.questions-content:hover a {
+  color: #ffba00;
+  font-weight: 700;
+}
+
+.expert-saying {
+  background-image: url(../../assets/img/expert-saying-bg.png);
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  padding: 50px 0;
+}
+
+.expert-slider {
+  padding: 50px 0;
+  position: relative;
+}
+
+.arrow-left {
+  position: absolute;
+  top: 25%;
+  left: -8%;
+  height: 50px;
+}
+
+.arrow-right {
+  position: absolute;
+  top: 25%;
+  right: -8%;
+  height: 50px;
+}
+
+.expert-image {
+  position: relative;
+}
+
+.video-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.expert-slider p {
+  padding: 30px 0 0;
+}
+
+@media (max-width: 768px) {
+  .expert-slider {
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .arrow-left {
+    left: -2%;
+    height: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .arrow-right {
+    right: -2%;
+    height: 30px;
+  }
+}
+
+.protect-her {
+  background-image: url(../../assets/img/protect-her-bg.png);
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  padding: 50px 0;
+}
+
+.protect-her h2 {
+  font-weight: 700;
+  color: #ffba00;
+}
+
+.protect-her img {
+  padding: 20px 0;
+}
+
+.learning {
+  background-image: url(../../assets/img/learning-bg.png);
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  padding: 50px 0;
+}
+
+.learning h2 {
+  text-transform: initial;
+}
+
+.learning span {
+  color: #ffba00;
+  font-weight: 700;
+}
+
+.learning-wrapper, .learning-wrapper h3 {
+  padding: 30px 0;
+}
+
+.contact {
+  background-color: #ffba00;
+  text-align: center;
+  padding: 10px;
+}
+
+.contact a {
+  margin: 0 10px;
+  color: #3e2044;
+  font-weight: 700;
+}
+
+.footer {
+  background-color: #2b2b2b;
+  color: #ffffff;
+}
+
+.footer-wrapper {
+  padding: 40px 0;
+}
+
+.footer-wrapper img {
+  width: 30%;
+}
+
+.footer-wrapper p {
+  color: #ffffff;
+  margin: 10px;
+  font-size: 13px;
+  text-align: center;
+}
+
